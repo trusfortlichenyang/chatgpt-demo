@@ -33,4 +33,6 @@ export default defineConfig({
       process.env.OUTPUT == 'netlify' && vercelDisableBlocks(),
     ]
   },
+  site: 'https://trusfortlichenyang.github.io',
+  base: '/chatgpt-demo'
 });
